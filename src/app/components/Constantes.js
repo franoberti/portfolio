@@ -172,7 +172,7 @@ export const experiencia = [
 
 export const educacion = [
     {
-        key: "2",
+        key: "4",
         institucion: "Universidad Tecnológica Nacional",
         icono: "/icon/utn.svg",
         titulo: "Ingeniero en Sistemas de Información",
@@ -180,7 +180,7 @@ export const educacion = [
         fin: "~2024"
     },
     {
-        key: "1",
+        key: "3",
         institucion: "CoderHouse",
         icono: "/icon/coderhouse.jpeg",
         titulo: "Carrera de Desarrollo FullStack Web",
@@ -188,7 +188,7 @@ export const educacion = [
         fin: "2023"
     },
     {
-        key: "1",
+        key: "2",
         institucion: "CoderHouse",
         icono: "/icon/coderhouse.jpeg",
         titulo: "Carrera de Desarrollo Frontend React",
@@ -196,12 +196,20 @@ export const educacion = [
         fin: "2022"
     },
     {
-        key: "0",
+        key: "1",
         institucion: "Universidad del Norte Santo Tomas de Aquino",
         icono: "/icon/unsta.png",
         titulo: "Diplomatura en Filosofia y Teologia",
         ingreso: "2020",
         fin: "2022"
+    },
+    {
+        key: "0",
+        institucion: "St. Mark's Instituto Privado de Ingles",
+        icono: "/img/stmarks.jpg",
+        titulo: "First Certificate in English Course",
+        ingreso: "2010",
+        fin: "2016"
     }
 ]
 
@@ -245,7 +253,7 @@ export const certificados= [
 ]
 
 export const tecnologias = [
-    {key: "0", nombre: "React Js", icon: "/icon/react.png"},
+    {key: "0", nombre: "React Js", icon: "/icon/react-logo.png"},
     {key: "1", nombre: "Node Js", icon: "/icon/nodejs-icon.svg"},
     {key: "2", nombre: "HTML", icon: "/icon/html.svg"},
     {key: "3", nombre: "CSS", icon: "/icon/css.svg"},
@@ -253,6 +261,7 @@ export const tecnologias = [
     {key: "5", nombre: "Microsoft 365", icon: "/icon/microsoft365.svg"},
     {key: "6", nombre: "Git", icon: "/icon/git.svg"},
     {key: "7", nombre: "MongoDB", icon: "/icon/mongoDB.png"},
+    {key: "8", nombre: "SQL Server", icon: "/icon/sqlserver.svg"}
 ]
 
 export const idiomas = [

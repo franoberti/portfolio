@@ -183,7 +183,7 @@ export function SobreMi(){
                         {tecnologias.map((tecnologia) => (
                             <div key={tecnologia.key} className={"group relative inline-flex items-center"}>
                                 <div className="flex h-10 w-10 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                                    <Image className={"h-8 auto"} width="75" height="75" src={tecnologia.icon} alt={""}></Image>
+                                    <Image className={"h-8 auto"} src={tecnologia.icon} alt={""}></Image>
                                 </div>
                                 <h5 className={"ml-3 text-sm font-semibold text-white"}>{tecnologia.nombre}</h5>
                             </div>
