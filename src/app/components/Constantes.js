@@ -69,8 +69,8 @@ export const proyectos = [
         descripcion: "Desarrollo del Front end de la pagina web de un emprendimiento de venta de chocolates con HTML5, CSS3 y JavaScript",
         imagen: "/img/blondieApp.png",
         url_ver: "https://blondies-franoberti.vercel.app/",
-        url_repo: "https://github.com/franoberti/blondies-Oberti",
-        herramienta: "HTML - CSS - JavaScript",
+        url_repo: ["https://github.com/franoberti/blondies-Oberti"],
+        herramienta: ["HTML","CSS", "JavaScript"],
         imagen_herramienta: ["/icon/html.svg", "/icon/css.svg", "/icon/javaScript.svg"]
     },
     /* {
@@ -83,30 +83,30 @@ export const proyectos = [
         imagen_herramienta: "/icon/angular.svg"
     }, */
     {
-        key: "Gestion Hoteleria Bovinos (FrontEnd)",
+        key: "Gestion Hoteleria Bovinos ",
         descripcion: "Sistema de gestion desarrollado para un frigorifico de la ciudad de Cordoba para gestionar los bovinos que tienen en las distintas hotelerias.",
         imagen: "/img/AssisSolutionsLogIn.png",
-        url_ver: "",
-        url_repo: "https://github.com/assisSolutions/bovino-frontend",
-        herramienta: "React Js",
-        imagen_herramienta: ["/icon/react-logo.png"]
+        url_ver: "https://clipchamp.com/watch/4WtVEPZJdlD",
+        url_repo: ["https://github.com/assisSolutions/bovino-frontend","https://github.com/assisSolutions/bovino-backend"],
+        herramienta: ["React Js", "Node Js"],
+        imagen_herramienta: ["/icon/react-logo.png", "/icon/nodejs-icon.svg"]
     },
-    {
+    /* {
         key: "Gestion Hoteleria Bovinos (BackEnd)",
         descripcion: "Sistema de gestion desarrollado para un frigorifico de la ciudad de Cordoba para gestionar los bovinos que tienen en las distintas hotelerias.",
         imagen: "/img/AssisSolutionsLogIn.png",
-        url_ver: null,
-        url_repo: "https://github.com/assisSolutions/bovino-backend",
+        url_ver: "",
+        url_repo: ["https://github.com/assisSolutions/bovino-backend"],
         herramienta: "Node Js",
         imagen_herramienta: ["/icon/nodejs-icon.svg"]
-    },
+    }, */
     {
         key: "El Naufrago",
         descripcion: "Sitio web de venta de libros, desarrollado con React.js",
         imagen: "/img/elNaufragoApp.png",
         url_ver: "https://el-naufrago.vercel.app/",
-        url_repo: "https://github.com/franoberti/elNaufrago-Oberti",
-        herramienta: "React",
+        url_repo: ["https://github.com/franoberti/elNaufrago-Oberti"],
+        herramienta: ["React"],
         imagen_herramienta: ["/icon/react-logo.png"]
     }
 ]
