@@ -138,9 +138,9 @@ export const tabs = [
 export const experiencia = [
     {
         key: "3",
-        empresa: "Assis Solutions",
+        empresa: "Desarrollador FullStack Web Independiente",
         icono: "/icon/logoAssis.png",
-        rol: "Founder",
+        rol: "Frontend & Backend",
         desde: "Agosto 2022",
         hasta: "Actualidad"
     },
