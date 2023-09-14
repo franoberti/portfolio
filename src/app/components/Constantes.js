@@ -91,15 +91,15 @@ export const proyectos = [
         herramienta: ["React Js", "Node Js"],
         imagen_herramienta: ["/icon/react-logo.png", "/icon/nodejs-icon.svg"]
     },
-    /* {
-        key: "Gestion Hoteleria Bovinos (BackEnd)",
-        descripcion: "Sistema de gestion desarrollado para un frigorifico de la ciudad de Cordoba para gestionar los bovinos que tienen en las distintas hotelerias.",
-        imagen: "/img/AssisSolutionsLogIn.png",
-        url_ver: "",
-        url_repo: ["https://github.com/assisSolutions/bovino-backend"],
-        herramienta: "Node Js",
-        imagen_herramienta: ["/icon/nodejs-icon.svg"]
-    }, */
+    {
+        key: "Implementacion User Story",
+        descripcion: "Para la materia Ingenieria y Calidad de Software de la carrera Ingenieria en Sistemas, desarrolle la implementacion de una user story llamada  'Realizar Pedido a Comercio Adherido' en la cual se cumplen todos los criterios de aceptacion y las pruebas de aceptacion de las misma",
+        imagen: "/img/iswE1.png",
+        url_ver: "https://isw-4k3-g2-e1.vercel.app/",
+        url_repo: ["https://github.com/franoberti/isw-4k3-grupo2"],
+        herramienta: "React Js",
+        imagen_herramienta: ["/icon/react-logo.png"]
+    },
     {
         key: "El Naufrago",
         descripcion: "Sitio web de venta de libros, desarrollado con React.js",
