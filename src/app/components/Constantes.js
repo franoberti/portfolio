@@ -73,15 +73,15 @@ export const proyectos = [
         herramienta: ["HTML","CSS", "JavaScript"],
         imagen_herramienta: ["/icon/html.svg", "/icon/css.svg", "/icon/javaScript.svg"]
     },
-    /* {
-        key: "Sistemas ABM",
-        descripcion: "Conjunto de sistemas ABM realizados para la materia Programación de Aplicaciones Visuales II en la carrera de Ingeniería en Sistemas.",
-        imagen: "/img/sistemas_abm.png",
-        url_ver: "https://abm.fogiordano.com",
-        url_repo: "https://github.com/FranGiordano/sistema-abm-pymes",
-        herramienta: "Angular",
-        imagen_herramienta: "/icon/angular.svg"
-    }, */
+    {
+        key: "BackEnd de E-commerce",
+        descripcion: "Proyecto Final del curso de programacion BackEnd. En este proyecto realice el desarrollo completo de un servidor backend para un e-commerce. El link del proyecto muestra un FrontEnd muy escueto ya que el foco del proyecto es el BackEnd.",
+        imagen: "/img/ecommerce.png",
+        url_ver: "https://proyectofinal-coderhouse.onrender.com/",
+        url_repo: "https://github.com/franoberti/proyecto-backend",
+        herramienta: ["Node Js"],
+        imagen_herramienta: ["/icon/nodejs-icon.svg"]
+    },
     {
         key: "Gestion Hoteleria Bovinos ",
         descripcion: "Sistema de gestion desarrollado para un frigorifico de la ciudad de Cordoba para gestionar los bovinos que tienen en las distintas hotelerias.",
