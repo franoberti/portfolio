@@ -66,7 +66,7 @@ export const datos_presentacion = {
 export const proyectos = [
     {
         key: "Blondies",
-        descripcion: "Desarrollo del Front end de la pagina web de un emprendimiento de venta de chocolates con HTML5, CSS3 y JavaScript",
+        descripcion: "Desarrollo del FrontEnd de la pagina web de un emprendimiento de venta de chocolates con HTML5, CSS3 y JavaScript",
         imagen: "/img/blondieApp.png",
         url_ver: "https://blondies-franoberti.vercel.app/",
         url_repo: ["https://github.com/franoberti/blondies-Oberti"],
@@ -78,7 +78,7 @@ export const proyectos = [
         descripcion: "Proyecto Final del curso de programacion BackEnd. En este proyecto realice el desarrollo completo de un servidor backend para un e-commerce. El link del proyecto muestra un FrontEnd muy escueto ya que el foco del proyecto es el BackEnd.",
         imagen: "/img/ecommerce.png",
         url_ver: "https://proyectofinal-coderhouse.onrender.com/",
-        url_repo: "https://github.com/franoberti/proyecto-backend",
+        url_repo: ["https://github.com/franoberti/proyecto-backend"],
         herramienta: ["Node Js"],
         imagen_herramienta: ["/icon/nodejs-icon.svg"]
     },
@@ -102,7 +102,7 @@ export const proyectos = [
     },
     {
         key: "El Naufrago",
-        descripcion: "Sitio web de venta de libros, desarrollado con React.js",
+        descripcion: "FrontEnd de un sitio web de venta de libros, desarrollado con React.js",
         imagen: "/img/elNaufragoApp.png",
         url_ver: "https://el-naufrago.vercel.app/",
         url_repo: ["https://github.com/franoberti/elNaufrago-Oberti"],
