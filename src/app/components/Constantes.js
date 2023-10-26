@@ -86,7 +86,7 @@ export const proyectos = [
         key: "Gestion Hoteleria Bovinos ",
         descripcion: "Sistema de gestion desarrollado para un frigorifico de la ciudad de Cordoba para gestionar los bovinos que tienen en las distintas hotelerias.",
         imagen: "/img/AssisSolutionsLogIn.png",
-        url_ver: "https://clipchamp.com/watch/4WtVEPZJdlD",
+        url_ver: "https://drive.google.com/drive/u/0/folders/1FDEixIGh4_DOGzYWvgC-JQDYIY205O8h",
         url_repo: ["https://github.com/assisSolutions/bovino-frontend","https://github.com/assisSolutions/bovino-backend"],
         herramienta: ["React Js", "Node Js"],
         imagen_herramienta: ["/icon/react-logo.png", "/icon/nodejs-icon.svg"]
