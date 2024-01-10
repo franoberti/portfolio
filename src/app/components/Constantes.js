@@ -74,6 +74,15 @@ export const proyectos = [
         imagen_herramienta: ["/icon/html.svg", "/icon/css.svg", "/icon/javaScript.svg"]
     },
     {
+        key: "RDCI - Pagina Web",
+        descripcion: "Desarrollo del FrontEnd de la pagina web de una consultoria interdisciplinaria",
+        imagen: "/img/rdci.png",
+        url_ver: "https://rdci.com.ar/",
+        url_repo: ["https://github.com/franoberti/rdci"],
+        herramienta: ["React"],
+        imagen_herramienta: ["/icon/react-logo.png"]
+    },
+    {
         key: "BackEnd de E-commerce",
         descripcion: "Proyecto Final del curso de programacion BackEnd. En este proyecto realice el desarrollo completo de un servidor backend para un e-commerce. El link del proyecto muestra un FrontEnd muy escueto ya que el foco del proyecto es el BackEnd.",
         imagen: "/img/ecommerce.png",
@@ -83,7 +92,7 @@ export const proyectos = [
         imagen_herramienta: ["/icon/nodejs-icon.svg"]
     },
     {
-        key: "Gestion Hoteleria Bovinos ",
+        key: "Gestion Hoteleria Bovinos",
         descripcion: "Sistema de gestion desarrollado para un frigorifico de la ciudad de Cordoba para gestionar los bovinos que tienen en las distintas hotelerias.",
         imagen: "/img/AssisSolutionsLogIn.png",
         url_ver: "https://drive.google.com/drive/u/0/folders/1FDEixIGh4_DOGzYWvgC-JQDYIY205O8h",
