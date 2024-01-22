@@ -65,6 +65,15 @@ export const datos_presentacion = {
 
 export const proyectos = [
     {
+        key: "Smartwater",
+        descripcion: "Figma to React App: Desarrollo del FrontEnd de un diseño realizado en figma (https://www.figma.com/file/GbbX6QpTq8THS4sN4BNJ0X/Smartwater?type=design&node-id=0-1&mode=design&t=ncEPre34es8AkBPZ-0).",
+        imagen: "/img/smartwater.png",
+        url_ver: "https://smartwater-franoberti.vercel.app/",
+        url_repo: ["https://github.com/franoberti/smartwater"],
+        herramienta: ["React"],
+        imagen_herramienta: ["/icon/react-logo.png"]
+    },
+    {
         key: "Blondies",
         descripcion: "Desarrollo del FrontEnd de la pagina web de un emprendimiento de venta de chocolates con HTML5, CSS3 y JavaScript",
         imagen: "/img/blondieApp.png",
