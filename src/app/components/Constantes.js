@@ -65,13 +65,22 @@ export const datos_presentacion = {
 
 export const proyectos = [
     {
-        key: "Smartwater",
-        descripcion: "Figma to React App: Desarrollo del FrontEnd de un diseño realizado en figma (https://www.figma.com/file/GbbX6QpTq8THS4sN4BNJ0X/Smartwater?type=design&node-id=0-1&mode=design&t=ncEPre34es8AkBPZ-0).",
+        key: "Tripper",
+        descripcion: "Proyecto Final de la carrera de Ingeniería en sistemas de información. Consiste en una aplicación para realizar carpooling. Publicar e incorporarse a viajes para dividir costos",
         imagen: "/img/smartwater.png",
         url_ver: "https://smartwater-franoberti.vercel.app/",
         url_repo: ["https://github.com/franoberti/smartwater"],
         herramienta: ["React"],
         imagen_herramienta: ["/icon/react-logo.png"]
+    },
+    {
+        key: "Smartwater",
+        descripcion: "Figma to React App: Desarrollo del FrontEnd de un diseño realizado en figma (https://www.figma.com/file/GbbX6QpTq8THS4sN4BNJ0X/Smartwater?type=design&node-id=0-1&mode=design&t=ncEPre34es8AkBPZ-0).",
+        imagen: "/img/smartwater.png",
+        url_ver: "https://smartwater-franoberti.vercel.app/",
+        url_repo: ["https://github.com/franoberti/smartwater"],
+        herramienta: ["React", "Node Js"],
+        imagen_herramienta: ["/icon/react-logo.png", "/icon/nodejs-icon.svg"]
     },
     {
         key: "Blondies",
