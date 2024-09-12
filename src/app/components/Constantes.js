@@ -67,11 +67,11 @@ export const proyectos = [
     {
         key: "Tripper",
         descripcion: "Proyecto Final de la carrera de Ingeniería en sistemas de información. Consiste en una aplicación para realizar carpooling. Publicar e incorporarse a viajes para dividir costos",
-        imagen: "/img/smartwater.png",
-        url_ver: "https://smartwater-franoberti.vercel.app/",
-        url_repo: ["https://github.com/franoberti/smartwater"],
-        herramienta: ["React"],
-        imagen_herramienta: ["/icon/react-logo.png"]
+        imagen: "/img/tripperApp.png",
+        url_ver: "https://tripper-test.vercel.app/",
+        url_repo: ["https://github.com/franoberti/tripper"],
+        herramienta: ["React", "Node Js"],
+        imagen_herramienta: ["/icon/react-logo.png", "/icon/nodejs-icon.svg"]
     },
     {
         key: "Smartwater",
@@ -79,8 +79,8 @@ export const proyectos = [
         imagen: "/img/smartwater.png",
         url_ver: "https://smartwater-franoberti.vercel.app/",
         url_repo: ["https://github.com/franoberti/smartwater"],
-        herramienta: ["React", "Node Js"],
-        imagen_herramienta: ["/icon/react-logo.png", "/icon/nodejs-icon.svg"]
+        herramienta: ["React"],
+        imagen_herramienta: ["/icon/react-logo.png"]
     },
     {
         key: "Blondies",
