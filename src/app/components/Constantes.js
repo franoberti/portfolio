@@ -167,7 +167,7 @@ export const experiencia = [
         key: "4",
         empresa: "Ypsilon",
         icono: "/icon/Ypsilon.png",
-        rol: "FullStack Engeneer & Technical Leader",
+        rol: "Full Stack Engineer & Technical Leader",
         desde: "Marzo 2024",
         hasta: "Actualidad"
     },
