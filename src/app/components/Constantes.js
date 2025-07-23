@@ -164,12 +164,20 @@ export const tabs = [
 
 export const experiencia = [
     {
+        key: "4",
+        empresa: "Ypsilon",
+        icono: "/icon/Ypsilon.png",
+        rol: "FullStack Engeneer & Technical Leader",
+        desde: "Marzo 2024",
+        hasta: "Actualidad"
+    },
+    {
         key: "3",
         empresa: "Desarrollador FullStack Web Independiente",
         icono: "/icon/logoAssis.png",
         rol: "Frontend & Backend",
         desde: "Agosto 2022",
-        hasta: "Actualidad"
+        hasta: "Marzo 2024"
     },
     {
         key: "2",
@@ -204,7 +212,7 @@ export const educacion = [
         icono: "/icon/utn.svg",
         titulo: "Ingeniero en Sistemas de Información",
         ingreso: "2016",
-        fin: "~2024"
+        fin: "~2025"
     },
     {
         key: "3",
@@ -246,9 +254,9 @@ export const certificados= [
         emisor: "Coderhouse",
         nombre: "Programacion Backend",
         icono: "/icon/coderhouse.jpeg",
-        expedicion: "En Curso",
-        id_credencial: "",
-        url_credencial: ""
+        expedicion: "2023",
+        id_credencial: "653eefc8a46e80ae0d8e81ef",
+        url_credencial: "https://pub.coderhouse.com/legacy-certificates/653eefc8a46e80ae0d8e81ef"
     },
     {
         key: "2",
@@ -257,7 +265,7 @@ export const certificados= [
         icono: "/icon/coderhouse.jpeg",
         expedicion: "2022",
         id_credencial: "6343520d59f1a2000e19d071",
-        url_credencial: "https://www.coderhouse.com/certificados/6343520d59f1a2000e19d071"
+        url_credencial: "https://pub.coderhouse.com/legacy-certificates/6343520d59f1a2000e19d071"
     },
     {
         key: "1",
@@ -266,7 +274,7 @@ export const certificados= [
         icono: "/icon/coderhouse.jpeg",
         expedicion: "2022",
         id_credencial: "62d97c27ded5e800192b111a",
-        url_credencial: "https://www.coderhouse.com/certificados/62d97c27ded5e800192b111a"
+        url_credencial: "https://pub.coderhouse.com/legacy-certificates/62d97c27ded5e800192b111a"
     },
     {
         key: "0",
@@ -275,7 +283,7 @@ export const certificados= [
         icono: "/icon/coderhouse.jpeg",
         expedicion: "2022",
         id_credencial: "62850455f5a9170019fc4023",
-        url_credencial: "https://www.coderhouse.com/certificados/62850455f5a9170019fc4023"
+        url_credencial: "https://pub.coderhouse.com/legacy-certificates/62850455f5a9170019fc4023"
     }
 ]
 
@@ -284,11 +292,15 @@ export const tecnologias = [
     {key: "1", nombre: "Node Js", icon: "/icon/nodejs-icon.svg"},
     {key: "2", nombre: "HTML", icon: "/icon/html.svg"},
     {key: "3", nombre: "CSS", icon: "/icon/css.svg"},
-    {key: "4", nombre: "JavaScript", icon: "/icon/javaScript.svg"},
-    {key: "5", nombre: "Microsoft 365", icon: "/icon/microsoft365.svg"},
-    {key: "6", nombre: "Git", icon: "/icon/git.svg"},
-    {key: "7", nombre: "MongoDB", icon: "/icon/mongoDB.png"},
-    {key: "8", nombre: "SQL Server", icon: "/icon/sqlserver.svg"}
+    {key: "4", nombre: "AWS", icon: "/icon/Aws_Logo.png"},
+    {key: "5", nombre: "C#", icon: "/icon/c-sharp.png"},
+    {key: "6", nombre: ".NET", icon: "/icon/Microsoft_.NET_logo.png"},
+    {key: "7", nombre: "JavaScript", icon: "/icon/javaScript.svg"},
+    {key: "8", nombre: "Microsoft 365", icon: "/icon/microsoft365.svg"},
+    {key: "9", nombre: "Git", icon: "/icon/git.svg"},
+    {key: "10", nombre: "MongoDB", icon: "/icon/mongoDB.png"},
+    {key: "11", nombre: "SQL Server", icon: "/icon/sqlserver.svg"},
+    {key: "12", nombre: "PostgreSQL", icon: "/icon/Postgresql_elephant.png"}
 ]
 
 export const idiomas = [

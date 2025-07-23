@@ -19,7 +19,7 @@ export function Proyectos() {
                                 proyecto.imagen_herramienta.map((imagen, index) => (
                                     
                                     <div key={imagen} className="flex h-8 w-8 mb-1 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                                        <Image className={"h-6 auto"} title={proyecto.herramienta[{index}]} src={imagen} alt={""}></Image>
+                                        <Image width="30" height={"30"} className={"h-6 auto"} title={proyecto.herramienta[{index}]} src={imagen} alt={""}></Image>
                                     </div>
                                 ))
                             }

@@ -58,7 +58,7 @@ export function SobreMi(){
                                 <tr key={exp.key} className={"border-b bg-gray-800 border-gray-700 hover:bg-gray-600"}>
                                     <td scope="row" className={"flex items-center px-6 py-4 text-white whitespace-nowrap"}>
                                         <div className="flex h-8 w-8 mr-2 flex-none items-center justify-center rounded-full bg-gray-50 group-hover:bg-white">
-                                            <Image className={"h-8 auto rounded-full"} src={exp.icono} alt={""}></Image>
+                                            <Image width="30" height={"30"} className={"h-8 auto rounded-full"} src={exp.icono} alt={""}></Image>
                                         </div>
 
                                         {exp.empresa}
@@ -108,7 +108,7 @@ export function SobreMi(){
                                 <tr key={edu.key} className={"border-b bg-gray-800 border-gray-700 hover:bg-gray-600"}>
                                     <td scope="row" className={"flex items-center px-6 py-4 text-white whitespace-nowrap"}>
                                         <div className="flex h-8 w-8 mr-2 flex-none items-center justify-center rounded-full bg-gray-50 group-hover:bg-white">
-                                            <Image className={"h-6 auto rounded-full"} src={edu.icono} alt={""}></Image>
+                                            <Image width="30" height={"30"} className={"h-6 auto rounded-full"} src={edu.icono} alt={""}></Image>
                                         </div>
 
                                         {edu.institucion}
@@ -183,7 +183,7 @@ export function SobreMi(){
                         {tecnologias.map((tecnologia) => (
                             <div key={tecnologia.key} className={"group relative inline-flex items-center"}>
                                 <div className="flex h-10 w-10 flex-none items-center justify-center rounded-lg bg-gray-50 group-hover:bg-white">
-                                    <Image className={"h-8 auto"} src={tecnologia.icon} alt={""}></Image>
+                                    <Image width="30" height={"30"} className={"h-8 auto"} src={tecnologia.icon} alt={""}></Image>
                                 </div>
                                 <h5 className={"ml-3 text-sm font-semibold text-white"}>{tecnologia.nombre}</h5>
                             </div>
